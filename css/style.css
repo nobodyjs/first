@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    padding-top: 24px;
+    padding-bottom: 12px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.container:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+header .logo {
+    float: left;
+}
+
+header .button {
+    min-width: 171px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    background-color: #fa090a;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    float: right;
+    margin-left: 24px;
+    border-radius: 2px;
+
+}
+
+header .button.grey {
+    background-color: #464646;
+
+}
+
+header .button.darkgrey {
+    background-color: #252525;
+
+}
+
+header .button i {
+    margin-right: 12px;
+}
+
+header form {
+    float: right;
+    width: 210px;
+    height: 42px;
+    background-color: #ebebeb;
+    border-radius: 2px;
+
+}
+
+header form:after {
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+header form input {
+    float: left;
+    width: 85%;
+    border: none;
+    color: #959595;
+    font-size: 15px;
+    line-height: 42px;
+    text-transform: uppercase;
+    padding-left: 16px;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: none;
+}
+
+header form button {
+    border: none;
+    background-color: transparent;
+    width: 14%;
+    float: right;
+    text-align: center;
+    padding-right: 12px;
+    line-height: 42px;
+
+}
+
+header form button i {
+    color: #f46364;
+    font-size: 17px;
+}
+
+.container.border {
+    border-bottom: solid 2px #464646;
+    padding-bottom: 22px;
+}
+
+header nav {
+    float: left;
+}
+
+header nav ul {
+    list-style: none;
+    padding-top: 21px;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 6px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+
+}
+
+ header nav ul li:hover {
+     border-bottom: solid 4px #fa090a;
+
+}
+
+ .social {
+     background-color: #fa090a;
+     width: 30px;
+     height: 30px;
+     line-height: 30px;
+     text-align: center;
+     display: inline-block;
+     margin-top: 12px;
+     float: rightdf;
+     margin-right: 6px;
+
+ }
+
+ .social i {
+     font-size: 20px;
+     color: black;
+
+ }
